@@ -1,0 +1,414 @@
+import React from "react";
+
+import { Button, Text, Img, Line, List } from "components";
+
+const PreLaunchPage = () => {
+  return (
+    <>
+      <div className="bg-gray_900 flex flex-col font-inter items-center justify-start mx-[auto] w-[100%]">
+        <div className="flex flex-col items-end justify-start pb-[135px] w-[100%]">
+          <header className="flex items-center justify-center w-[100%]">
+            <div className="bg-gradient16  flex flex-1 md:flex-col flex-row md:gap-[20px] items-center justify-center p-[31px] sm:px-[20px] w-[100%]">
+              <Button
+                className="cursor-pointer font-bold leading-[normal] min-w-[125px] md:ml-[0] ml-[19px] md:mt-[0] mt-[2px] text-[16px] text-center text-white_A700 w-[auto]"
+                shape="RoundedBorder13"
+                size="6xl"
+                variant="GradientPurpleA100IndigoA200"
+              >
+                Swaptos
+              </Button>
+              <ul className="bg-gradient16  flex sm:flex-col flex-row font-poppins gap-[30px] sm:hidden items-center justify-start md:ml-[0] ml-[90px] w-[auto] common-row-list">
+                <li className="sm:w-[100%] sm:my-[10px] w-[9%]">
+                  <div className="flex flex-col items-center justify-center">
+                    <a
+                      className="cursor-pointer font-medium hover:h-[undefinedpx] text-[16px] text-left text-white_A700 w-[auto] hover:w-[undefinedpx]"
+                      href="#"
+                    >
+                      Main
+                    </a>
+                  </div>
+                </li>
+                <li className="sm:w-[100%] sm:my-[10px] w-[14%]">
+                  <div className="flex flex-row gap-[5px] items-center justify-center">
+                    <a
+                      className="cursor-pointer font-medium hover:h-[undefinedpx] text-[16px] text-left text-white_A700 w-[auto] hover:w-[undefinedpx]"
+                      href="#"
+                    >
+                      Trade
+                    </a>
+                    <Img
+                      src="images/img_arrowup_white_a700_16x16.svg"
+                      className="h-[16px] w-[16px]"
+                      alt="arrowup"
+                    />
+                  </div>
+                </li>
+                <li className="sm:w-[100%] sm:my-[10px] w-[12%]">
+                  <div className="flex flex-row gap-[5px] items-center justify-center">
+                    <a
+                      className="cursor-pointer font-medium hover:h-[undefinedpx] text-[16px] text-left text-white_A700 w-[auto] hover:w-[undefinedpx]"
+                      href="#"
+                    >
+                      Earn
+                    </a>
+                    <Img
+                      src="images/img_arrowup_white_a700_16x16.svg"
+                      className="h-[16px] w-[16px]"
+                      alt="arrowup One"
+                    />
+                  </div>
+                </li>
+                <li className="sm:w-[100%] sm:my-[10px] w-[16%]">
+                  <div className="flex flex-col items-center justify-center">
+                    <a
+                      className="cursor-pointer font-medium hover:h-[undefinedpx] text-[16px] text-left text-white_A700 w-[auto] hover:w-[undefinedpx]"
+                      href="#"
+                    >
+                      Extra APR
+                    </a>
+                  </div>
+                </li>
+                <li className="sm:w-[100%] sm:my-[10px] w-[28%]">
+                  <div className="flex flex-col items-center justify-center">
+                    <a
+                      className="cursor-pointer font-medium hover:h-[undefinedpx] text-[16px] text-left text-white_A700 w-[auto] hover:w-[undefinedpx]"
+                      href="#"
+                    >
+                      Referral program
+                    </a>
+                  </div>
+                </li>
+              </ul>
+              <Button
+                className="flex items-center justify-center mb-[2px] md:ml-[0] ml-[931px] text-center"
+                leftIcon={
+                  <Img
+                    src="images/img_volume.svg"
+                    className="mr-[10px] text-center"
+                    alt="volume"
+                  />
+                }
+                shape="RoundedBorder23"
+                size="5xl"
+                variant="GradientPurpleA100IndigoA200"
+              >
+                <div className="bg-transparent cursor-pointer font-bold leading-[normal] text-[16px] text-left text-white_A700">
+                  0x9547...3258
+                </div>
+              </Button>
+            </div>
+          </header>
+          <div className="font-poppins md:h-[1138px] h-[1222px] sm:h-[1716px] md:px-[20px] sm:px-[20px] relative md:w-[100%] sm:w-[100%] w-[81%]">
+            <Img
+              src="images/img_vector_deep_purple_301.svg"
+              className="absolute h-[662px] right-[7%] top-[0] w-[auto]"
+              alt="Vector"
+            />
+            <Img
+              src="images/img_maskgroup.png"
+              className="absolute h-[600px] object-cover right-[0] top-[4%] w-[auto]"
+              alt="Maskgroup"
+            />
+            <Text
+              className="absolute bg-clip-text bg-gradient4  leading-[80.00px] left-[0] text-left text-transparent top-[20%] sm:w-[100%] w-[48%]"
+              as="h1"
+              variant="h1"
+            >
+              Global  Pre-Launch Event
+            </Text>
+            <div className="absolute font-inter sm:h-[133px] h-[48px] md:h-[auto] left-[0] top-[15%] sm:w-[100%] w-[34%]">
+              <div className="absolute flex flex-col h-[max-content] inset-[0] items-center justify-center m-[auto] w-[100%]">
+                <div className="flex sm:flex-col flex-row sm:gap-[20px] items-center justify-start w-[100%]">
+                  <Img
+                    src="images/img_union_31x22.png"
+                    className="sm:flex-1 h-[31px] md:h-[auto] sm:h-[auto] object-cover sm:w-[100%] w-[auto]"
+                    alt="Union"
+                  />
+                  <Text
+                    className="bg-clip-text bg-gradient4  font-bold sm:ml-[0] ml-[4px] text-left text-transparent w-[auto]"
+                    variant="body7"
+                  >
+                    Swaptos
+                  </Text>
+                  <Text
+                    className="bg-clip-text bg-gradient4  sm:flex-1 font-bold sm:ml-[0] ml-[40px] text-left text-transparent sm:w-[100%] w-[71%]"
+                    variant="body12"
+                  >
+                    New generation of DeFi with price ranges, custom fees and
+                    daily tasks.
+                  </Text>
+                </div>
+              </div>
+              <Line className="absolute bg-gradient4  h-[48px] inset-y-[0] left-[26%] my-[auto] w-[1px]" />
+            </div>
+            <div className="absolute bottom-[0] flex flex-col font-poppins items-center justify-start left-[10%] w-[57%]">
+              <div className="flex flex-col gap-[20px] items-center justify-start w-[100%]">
+                <List
+                  className="sm:flex-col flex-row gap-[20px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center w-[100%]"
+                  orientation="horizontal"
+                >
+                  <div className="bg-gray_900 flex flex-1 flex-col items-start justify-start sm:ml-[0] p-[16px] rounded-radius25 shadow-bs2 w-[100%]">
+                    <div className="flex flex-row gap-[20px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[10px] w-[auto]">
+                      <Text
+                        className="font-bold leading-[24.00px] md:max-w-[100%] sm:max-w-[100%] max-w-[148px] text-left text-white_A700"
+                        variant="body7"
+                      >
+                        Early Bird bonus
+                      </Text>
+                      <Img
+                        src="images/img_component9.png"
+                        className="h-[60px] md:h-[auto] sm:h-[auto] object-cover w-[60px]"
+                        alt="ComponentNine"
+                      />
+                    </div>
+                    <div className="flex flex-col gap-[7px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[55px] mt-[37px] md:w-[100%] sm:w-[100%] w-[58%]">
+                      <Text
+                        className="bg-clip-text bg-gradient3  font-bold text-left text-transparent w-[auto]"
+                        variant="body4"
+                      >
+                        <span className="text-white_A700 text-[14px] font-poppins">
+                          up to
+                        </span>
+                        <span className="sm:text-[21px] md:text-[23px] text-deep_purple_A203 text-[25px] font-poppins">
+                          {" "}
+                        </span>
+                        <span className="sm:text-[36px] md:text-[38px] text-deep_purple_A203 text-[40px] font-poppins">
+                          $20*
+                        </span>
+                      </Text>
+                      <Text
+                        className="font-bold text-left text-white_A700 w-[auto]"
+                        variant="body7"
+                      >
+                        (20 SWPT)
+                      </Text>
+                    </div>
+                    <Text
+                      className="font-bold mb-[6px] md:ml-[0] sm:ml-[0] ml-[10px] mt-[48px] text-left text-white_A700 w-[auto]"
+                      variant="body14"
+                    >
+                      * just for a few steps
+                    </Text>
+                  </div>
+                  <div className="bg-gray_900 flex flex-1 flex-col items-start justify-start sm:ml-[0] p-[16px] rounded-radius25 shadow-bs2 w-[100%]">
+                    <div className="flex flex-row gap-[20px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[10px] w-[auto]">
+                      <Text
+                        className="font-bold leading-[24.00px] md:max-w-[100%] sm:max-w-[100%] max-w-[148px] text-left text-white_A700"
+                        variant="body7"
+                      >
+                        Referral bonus
+                      </Text>
+                      <Img
+                        src="images/img_mdiusersgroup.png"
+                        className="h-[60px] md:h-[auto] sm:h-[auto] object-cover w-[60px]"
+                        alt="ComponentNine One"
+                      />
+                    </div>
+                    <div className="flex flex-col gap-[7px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[66px] mt-[37px] md:w-[100%] sm:w-[100%] w-[48%]">
+                      <Text
+                        className="bg-clip-text bg-gradient3  font-bold text-left text-transparent w-[auto]"
+                        variant="body4"
+                      >
+                        <span className="text-white_A700 text-[14px] font-poppins">
+                          up to
+                        </span>
+                        <span className="sm:text-[21px] md:text-[23px] text-deep_purple_A203 text-[25px] font-poppins">
+                          {" "}
+                        </span>
+                        <span className="sm:text-[36px] md:text-[38px] text-deep_purple_A203 text-[40px] font-poppins">
+                          $5*
+                        </span>
+                      </Text>
+                      <Text
+                        className="font-bold text-left text-white_A700 w-[auto]"
+                        variant="body7"
+                      >
+                        (5 SWPT)
+                      </Text>
+                    </div>
+                    <Text
+                      className="font-bold mb-[8px] md:ml-[0] sm:ml-[0] ml-[10px] mt-[47px] text-left text-white_A700 w-[auto]"
+                      variant="body14"
+                    >
+                      * for each invited friend
+                    </Text>
+                  </div>
+                  <div className="bg-gray_900 flex flex-1 flex-col items-start justify-start sm:ml-[0] p-[16px] rounded-radius25 shadow-bs2 w-[100%]">
+                    <div className="flex flex-row gap-[20px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[10px] w-[auto]">
+                      <Text
+                        className="font-bold text-left text-white_A700 w-[auto]"
+                        variant="body7"
+                      >
+                        Giveaway
+                      </Text>
+                      <Img
+                        src="images/img_component9_60x60.png"
+                        className="h-[60px] md:h-[auto] sm:h-[auto] object-cover w-[60px]"
+                        alt="ComponentNine Two"
+                      />
+                    </div>
+                    <div className="flex flex-col gap-[5px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[42px] mt-[34px] md:w-[100%] sm:w-[100%] w-[68%]">
+                      <Text
+                        className="bg-clip-text bg-gradient3  text-left text-transparent w-[auto]"
+                        as="h5"
+                        variant="h5"
+                      >
+                        $20.000
+                      </Text>
+                      <Text
+                        className="font-bold text-left text-white_A700 w-[auto]"
+                        variant="body7"
+                      >
+                        (20 000 SWPT)
+                      </Text>
+                    </div>
+                    <Text
+                      className="font-bold mb-[8px] md:ml-[0] sm:ml-[0] ml-[10px] mt-[47px] text-left text-white_A700 w-[auto]"
+                      variant="body14"
+                    >
+                      * for 1000 random users
+                    </Text>
+                  </div>
+                </List>
+                <div className="flex md:flex-col sm:flex-col flex-row gap-[20px] items-center justify-between w-[100%]">
+                  <div className="bg-gray_900 flex md:flex-1 sm:flex-1 flex-col items-start justify-start p-[16px] rounded-radius25 shadow-bs2 md:w-[100%] sm:w-[100%] w-[auto]">
+                    <div className="flex flex-row gap-[20px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[10px] w-[auto]">
+                      <Text
+                        className="font-bold text-left text-white_A700 w-[auto]"
+                        variant="body7"
+                      >
+                        Competition
+                      </Text>
+                      <Img
+                        src="images/img_component9_1.png"
+                        className="h-[60px] md:h-[auto] sm:h-[auto] object-cover w-[60px]"
+                        alt="ComponentNine Three"
+                      />
+                    </div>
+                    <div className="flex flex-col gap-[5px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[46px] mt-[34px] md:w-[100%] sm:w-[100%] w-[65%]">
+                      <Text
+                        className="bg-clip-text bg-gradient3  text-left text-transparent w-[auto]"
+                        as="h5"
+                        variant="h5"
+                      >
+                        $15.000
+                      </Text>
+                      <Text
+                        className="font-bold text-left text-white_A700 w-[auto]"
+                        variant="body7"
+                      >
+                        (15 000 SWPT)
+                      </Text>
+                    </div>
+                    <Text
+                      className="font-bold mb-[8px] md:ml-[0] sm:ml-[0] ml-[10px] mt-[47px] text-left text-white_A700 w-[auto]"
+                      variant="body14"
+                    >
+                      * for the most active referrals
+                    </Text>
+                  </div>
+                  <div className="flex md:flex-1 sm:flex-1 flex-col gap-[20px] items-center justify-start md:w-[100%] sm:w-[100%] w-[auto]">
+                    <div className="bg-gray_900 flex flex-col items-center justify-end p-[16px] rounded-radius15 shadow-bs11 w-[100%]">
+                      <div className="flex flex-col gap-[7px] items-start justify-start mt-[11px] md:w-[100%] sm:w-[100%] w-[97%]">
+                        <div className="flex sm:flex-col flex-row sm:gap-[47px] items-center justify-between w-[100%]">
+                          <div className="flex flex-row font-poppins gap-[10px] items-center justify-start w-[auto]">
+                            <Img
+                              src="images/img_component9_2.png"
+                              className="h-[60px] md:h-[auto] sm:h-[auto] object-cover w-[60px]"
+                              alt="ComponentNine Four"
+                            />
+                            <Text
+                              className="font-bold leading-[24.00px] md:max-w-[100%] sm:max-w-[100%] max-w-[119px] text-left text-white_A700"
+                              variant="body7"
+                            >
+                              Twitter campaign
+                            </Text>
+                          </div>
+                          <div className="flex flex-col font-poppins gap-[7px] items-center justify-center w-[auto]">
+                            <Text
+                              className="bg-clip-text bg-gradient3  font-bold text-left text-transparent w-[auto]"
+                              variant="body4"
+                            >
+                              $2000.00
+                            </Text>
+                            <Text
+                              className="font-bold text-left text-white_A700 w-[auto]"
+                              variant="body14"
+                            >
+                              (20 000 SWPT)
+                            </Text>
+                          </div>
+                          <Button
+                            className="cursor-pointer font-bold font-inter leading-[normal] min-w-[121px] text-[16px] text-center text-white_A700 w-[auto]"
+                            shape="RoundedBorder23"
+                            size="6xl"
+                            variant="GradientDeeppurpleA203Purple400"
+                          >
+                            Retweet
+                          </Button>
+                        </div>
+                        <Text
+                          className="font-bold text-left text-white_A700 w-[auto]"
+                          variant="body14"
+                        >
+                          * retweet and win
+                        </Text>
+                      </div>
+                    </div>
+                    <div className="bg-gray_900 flex sm:flex-col flex-row sm:gap-[49px] items-center justify-between p-[15px] rounded-radius15 shadow-bs11 w-[100%]">
+                      <Text
+                        className="font-medium font-poppins leading-[24.00px] sm:ml-[0] ml-[11px] text-left text-white_A700 w-[auto]"
+                        variant="body12"
+                      >
+                        <span className="text-white_A700 text-[16px]">
+                          Complete few{" "}
+                        </span>
+                        <span className="text-deep_purple_A203 text-[16px]">
+                          sign up steps
+                        </span>
+                        <span className="text-white_A700 text-[16px]">
+                          {" "}
+                          and earn crypto rewards!{" "}
+                        </span>
+                        <span className="text-deep_purple_A203 text-[16px]">
+                          Connect
+                        </span>
+                        <span className="text-white_A700 text-[16px]">
+                          {" "}
+                          your wallet to start participation  in{" "}
+                        </span>
+                        <span className="text-deep_purple_A203 text-[16px]">
+                          Swaptos
+                        </span>
+                        <span className="text-white_A700 text-[16px]">
+                          {" "}
+                          Global Pre-Launch Event!
+                        </span>
+                      </Text>
+                      <Button
+                        className="cursor-pointer font-bold font-inter leading-[normal] min-w-[175px] mr-[11px] text-[16px] text-center text-white_A700 w-[auto]"
+                        shape="RoundedBorder23"
+                        size="6xl"
+                        variant="GradientDeeppurpleA203Purple400"
+                      >
+                        Connect wallet
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <Text
+              className="absolute bg-clip-text bg-gradient4  font-bold left-[0] text-left text-transparent top-[35%] w-[auto]"
+              variant="body7"
+            >
+              With Prize Pool of $30.000 (200.000 SWPT){" "}
+            </Text>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default PreLaunchPage;
